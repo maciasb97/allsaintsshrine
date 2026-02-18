@@ -919,7 +919,7 @@ section{
 
 
 
-/*---------------Featured In Section---------------*/
+/*---------------HOME PAGE - Featured In Section---------------*/
 .featured{
   background-color: var(--secondary-section-color);
   color: white;
@@ -960,7 +960,42 @@ section{
     cursor: pointer;
 }
 
-/*---------------------Featured In Section---------------------*/
+/*---------------------HOME PAGE - Featured In Section---------------------*/
+
+/*------------------------------ Relic Page Template Section-------------------------------------------- */
+.relic-hero{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/example-imgs/ambrose-header.jpg");
+  /* Set a specific height */
+  height: 60rem;
+  
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.relic-hero-text{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.relic-hero-text h1{
+  font-family: 'DM Serif Display';
+  font-size: 50px;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.relic-content{
+  background-color: var(--secondary-section-color);
+  color: green;
+  padding: 5rem;
+}
+
+
+/*------------------------------ Relic Page Template Section-------------------------------------------- */
 
 
 
